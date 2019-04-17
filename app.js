@@ -33,9 +33,12 @@ function initPlayer() {
   player.configure({
     drm: {
       clearKeys: {
-        'abba271e8bcf552bbd2e86a434a9a5d9': '69eaa802a6763af979e8d1940fb88390',
-        '6d76f25cb17f5e16b8eaef6bbf582d8e': 'cb541084c99731aef4fff74500c12ea0',
-        'f3c5e0361e6654b28f8049c778b23946': 'a4631a153a443df9eed0593043db7510'
+        // correct keys
+        // 'abba271e8bcf552bbd2e86a434a9a5d9': '69eaa802a6763af979e8d1940fb88390', 
+        // '6d76f25cb17f5e16b8eaef6bbf582d8e': 'cb541084c99731aef4fff74500c12ea0',
+        // 'f3c5e0361e6654b28f8049c778b23946': 'a4631a153a443df9eed0593043db7510'
+        // wrong keys
+        'wrongkeywrongkeywrongkey':'abcd1234abcd1234abcd1234',
       }
     }
   })
